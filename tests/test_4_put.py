@@ -21,7 +21,7 @@ class Test_Put:
     @pytest.mark.put
     def test_put_001(self):
         _expected = get_current_date_time().split(sep="T")[0]
-        _params = {"name": "morpheus", "job": "zion resident"}
+        _params = {"name": "morpheus", "job": "resident"}
         _endpoint = f"{self.config.get_base_url()}/api/users/2"
         _response = self.api.api_put(endpoint=_endpoint, params=_params)
         assert _response.status_code == api_response_codes.OK, "Invalid response code"
