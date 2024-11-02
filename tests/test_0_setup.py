@@ -4,10 +4,12 @@ Author: Chinmay Mudholkar
 Date: 04/2024
 """
 
-import pytest
-from libs import config_ops
 import sys
+
+import pytest
+
 from libs import *
+from libs import config_ops
 
 
 class Test_Get:
