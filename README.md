@@ -9,7 +9,7 @@ The tests perform actions on https://reqres.in - a great free API testing websit
 Installation is easy and just requires Python 3.10 (or newer) to be installed on the host computer.  To set the project up on your computer:
 1. Clone the repo to any directory using
    ```console
-   git clone https://github.com/chinmay62/PyApiBasics.git
+   git clone https://github.com/chinmaymudholkar/PyApiBasics.git
    ```
 1. Open the repo folder in any IDE (Visual Studio Code recommended)
 1. Create a virtual environment by running the following command in the terminal ```python -m venv .venv```
