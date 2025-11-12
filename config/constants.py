@@ -5,16 +5,15 @@ Date: 04/2024
 """
 
 
-class config_sections:
+class ConfigSections:
     COMMON = "common"
     BASE_URLS = "base_urls"
 
 
-class api_response_codes:
-    OK = 200
+class ApiResponseCodes:
     NOT_FOUND = 404
     NO_CONTENT = 204
 
 
-class file_encoding:
+class FileEncoding:
     ASCII = "ascii"
